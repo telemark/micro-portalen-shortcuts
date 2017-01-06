@@ -1,0 +1,16 @@
+[
+  {
+    "title": "E-post",
+    "description": "Webmail for ansatte",
+    "system": "OWA",
+    "url": "https://epost.vfk.no/OWA/auth/logon.aspx",
+    "icon": "email"
+  },
+  {
+    "title": "Sak/arkiv",
+    "description": "Sak/arkivsystemet",
+    "system": "p360",
+    "url": "http://public360/",
+    "icon": "account_balance"
+  }
+]

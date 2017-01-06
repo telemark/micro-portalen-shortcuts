@@ -1,0 +1,10 @@
+{
+  "testinput": [
+    "bovidaregaandeskule"
+  ],
+  "expected": [
+      "alle",
+      "bovidaregaandeskule",
+      "skole"
+  ]
+}

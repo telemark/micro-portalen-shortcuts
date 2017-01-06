@@ -1,0 +1,10 @@
+[
+  {
+    "input": "Bø Videregående Skole",
+    "expected": "bovideregaendeskole"
+  },
+  {
+    "input": "Æsops fabler",
+    "expected": "esopsfabler"
+  }
+]

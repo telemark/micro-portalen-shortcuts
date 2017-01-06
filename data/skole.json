@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Fronter",
+    "description": "Læringsplattform",
+    "system": "Fronter",
+    "url": "https://fronter.com/telemarkvgs/login/feide",
+    "icon": "note"
+  },
+  {
+    "title": "E-post",
+    "description": "Webmail for ansatte",
+    "system": "OWA",
+    "url": "https://epost.vfk.no/OWA/auth/logon.aspx",
+    "icon": "email"
+  },
+   {
+    "title": "NDLA",
+    "description": "Nasjonal digital læringsarena",
+    "system": "NDLA",
+    "url": "https://ndla.no",
+    "icon": "extension"
+  },
+   {
+    "title": "Office365",
+    "description": "Samhandlingsside med programmer fra Microsoft",
+    "system": "Office365",
+    "url": "https://skoletfk.sharepoint.com/skoleportal",
+    "icon": "build"
+  },
+     {
+    "title": "MinElev",
+    "description": "Samhandlingsside med verktøy fra Microsoft",
+    "system": "MinElev",
+    "url": "https://minelev.t-fk.no/login",
+    "icon": "build"
+  },
+    {
+    "title": "Min tid",
+    "description": "Tidsregistrering for ansatte",
+    "system": "Min tid",
+    "url": "http://tfk-fh-stempling01/MinTid/Login.aspx?ReturnUrl=%2fmintid%2fstart.aspx",
+    "icon": "query_builder"
+  },
+    {
+    "title": "Elevmappa360",
+    "description": "Tilgang til dine elevmapper",
+    "system": "Elevmappa",
+    "url": "https://elevmappa360.t-fk.no/",
+    "icon": "query_builder"
+  }
+]

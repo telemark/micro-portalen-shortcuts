@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Min tid",
+    "description": "Tidsregistrering for ansatte",
+    "system": "Min tid",
+    "url": "http://tfk-fh-stempling01/MinTid/Login.aspx?ReturnUrl=%2fmintid%2fstart.aspx",
+    "icon": "query_builder"
+  },
+    {
+    "title": "Styringsinformasjon",
+    "description": "De mest sentrale dokumentene i Telemark fylkeskommune",
+    "system": "CraftCMS",
+    "url": "https://info.portalen.t-fk.no/artikler/2016/styringsinformasjon",
+    "icon": "flag"
+  }
+ ]
