@@ -11,11 +11,12 @@ const renderPage = require('./lib/render-page')
 module.exports = async (request, response) => {
   const {pathname, query} = await parse(request.url, true)
   const data = request.method === 'POST' ? await json(request) : query
+  const results = Object.values(data).length > 0 ? filterShortcuts(data) : listAllShortcuts()
 
   if (pathname === '/shortcuts') {
-    send(response, 200, Object.values(data).length > 0 ? filterShortcuts(data) : listAllShortcuts())
+    send(response, 200, results)
   } else if (pathname === '/view') {
-    send(response, 200, renderPage(listAllShortcuts()))
+    send(response, 200, renderPage(results))
   } else {
     const readme = readFileSync('./README.md', 'utf-8')
     const html = marked(readme)

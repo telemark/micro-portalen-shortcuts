@@ -31,7 +31,27 @@ To filter by roles
 
 ## /view
 
-Renders html for all shortcuts
+Renders html of all shortcuts
+
+To filter by roles
+
+#### GET
+
+```bash
+?roles=<role1>|<role2>|<role3>
+```
+
+#### POST
+
+```JavaScript
+{
+  roles: [
+    'role1',
+    'role2',
+    'role3'
+  ]
+}
+```
 
 ## License
 [MIT](LICENSE)
