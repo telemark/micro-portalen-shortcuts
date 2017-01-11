@@ -29,5 +29,9 @@ To filter by roles
 }
 ```
 
+## /view
+
+Renders html for all shortcuts
+
 ## License
 [MIT](LICENSE)
