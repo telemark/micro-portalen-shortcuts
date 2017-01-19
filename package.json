@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-shortcuts",
-  "description": "Mapping of shortcuts",
-  "version": "1.1.3",
+  "description": "Mapping of shortcuts for portalen",
+  "version": "1.1.4",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -27,6 +27,7 @@
     "microservice",
     "micro",
     "shortcuts",
+    "portalen",
     "Telemark fylkeskommune"
   ],
   "repository": {
@@ -37,7 +38,7 @@
     "url": "http://github.com/telemark/micro-portalen-shortcuts/issues"
   },
   "now": {
-    "alias": "shortcuts.micro.tfk.allthethings.win"
+    "alias": "shortcuts.portalen.t-fk.win"
   },
   "greenkeeper": {
     "emails": false
