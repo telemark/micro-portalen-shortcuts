@@ -44,15 +44,15 @@
     "emails": false
   },
   "devDependencies": {
-    "coveralls": "2.11.15",
+    "coveralls": "2.11.16",
     "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "9.0.3"
+    "tap": "10.0.2"
   },
   "dependencies": {
     "is-file": "1.0.0",
     "marked": "0.3.6",
-    "micro": "6.2.1",
-    "tfk-unique-array": "1.0.6"
+    "micro": "7.0.2",
+    "tfk-unique-array": "1.0.7"
   }
 }
