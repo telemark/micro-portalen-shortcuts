@@ -4,8 +4,8 @@
 #
 ###########################################################
 
-# Setting the base to nodejs 7.4.0
-FROM node:7.4.0-alpine
+# Setting the base to nodejs 7.6.0
+FROM node:7.6.0-alpine
 
 # Maintainer
 MAINTAINER Geir Gåsodden
@@ -24,8 +24,10 @@ WORKDIR "/src"
 # Install dependencies
 RUN npm install --production
 
-# Expose 8080
-EXPOSE 8080
+ENV NODE_ENV production
+
+# Expose 3000
+EXPOSE 3000
 
 # Startup
 ENTRYPOINT npm start

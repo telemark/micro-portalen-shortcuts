@@ -3,6 +3,7 @@
   "description": "Mapping of shortcuts for portalen",
   "version": "1.1.11",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
@@ -10,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.4.0"
+    "node": ">=7.6.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -19,8 +20,7 @@
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install",
     "standard-fix": "standard --fix",
-    "start": "NODE_ENV=production micro -p 8080",
-    "dev": "micro -p 3000",
+    "start": "micro",
     "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
@@ -32,16 +32,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/micro-portalen-shortcuts.git"
+    "url": "https://github.com/telemark/micro-portalen-shortcuts.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/micro-portalen-shortcuts/issues"
+    "url": "https://github.com/telemark/micro-portalen-shortcuts/issues"
   },
   "now": {
-    "alias": "shortcuts.portalen.t-fk.win"
-  },
-  "greenkeeper": {
-    "emails": false
+    "alias": [
+      "shortcuts.portalen.t-fk.win"
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "type": "npm"
   },
   "devDependencies": {
     "coveralls": "2.11.16",
