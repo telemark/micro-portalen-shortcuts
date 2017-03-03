@@ -18,6 +18,7 @@ module.exports = async (request, response) => {
     response.setHeader('Access-Control-Allow-Methods', 'GET, POST')
   }
   if (request.method === 'OPTIONS') {
+    response.setHeader('Access-Control-Allow-Headers', 'Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Access-Control-Request-Method, Access-Control-Request-Headers')
     response.end()
   } else if (pathname === '/shortcuts') {
     send(response, 200, results)
