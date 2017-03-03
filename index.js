@@ -13,8 +13,11 @@ module.exports = async (request, response) => {
   const data = request.method === 'POST' ? await json(request) : query
   const results = Object.values(data).length > 0 ? filterShortcuts(data) : listAllShortcuts()
 
-  if (pathname === '/shortcuts') {
+  if (!['/', '/view'].includes(pathname)) {
     response.setHeader('Access-Control-Allow-Origin', '*')
+    response.setHeader('Access-Control-Allow-Methods', 'GET, POST')
+  }
+  if (pathname === '/shortcuts') {
     send(response, 200, results)
   } else if (pathname === '/view') {
     send(response, 200, renderPage(results))
