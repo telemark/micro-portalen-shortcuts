@@ -14,6 +14,7 @@ module.exports = async (request, response) => {
   const results = Object.values(data).length > 0 ? filterShortcuts(data) : listAllShortcuts()
 
   if (pathname === '/shortcuts') {
+    response.setHeader('Access-Control-Allow-Origin', '*')
     send(response, 200, results)
   } else if (pathname === '/view') {
     send(response, 200, renderPage(results))
