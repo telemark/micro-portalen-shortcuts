@@ -39,7 +39,8 @@
   },
   "now": {
     "alias": [
-      "shortcuts.portalen.t-fk.win"
+      "shortcuts.portalen.t-fk.win",
+      "shortcuts.portalen.micro.t-fk.no"
     ],
     "env": {
       "NODE_ENV": "production"
