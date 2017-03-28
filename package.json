@@ -51,15 +51,15 @@
     "ava": "0.18.2",
     "axios": "0.15.3",
     "coveralls": "2.12.0",
-    "nsp": "2.6.2",
-    "nyc": "10.1.2",
-    "standard": "8.6.0",
+    "nsp": "2.6.3",
+    "nyc": "10.2.0",
+    "standard": "9.0.2",
     "test-listen": "1.0.1"
   },
   "dependencies": {
     "is-file": "1.0.0",
     "marked": "0.3.6",
-    "micro": "7.0.6",
+    "micro": "7.3.0",
     "tfk-unique-array": "1.0.11"
   }
 }
