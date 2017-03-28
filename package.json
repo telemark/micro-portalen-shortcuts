@@ -52,8 +52,8 @@
     "axios": "0.15.3",
     "coveralls": "2.11.16",
     "nsp": "2.6.3",
-    "nyc": "10.1.2",
-    "standard": "8.6.0",
+    "nyc": "10.2.0",
+    "standard": "9.0.2",
     "test-listen": "1.0.1"
   },
   "dependencies": {
