@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-shortcuts",
   "description": "Mapping of shortcuts for portalen",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.7.1"
+    "node": ">=7.8.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -37,6 +37,7 @@
   "bugs": {
     "url": "https://github.com/telemark/micro-portalen-shortcuts/issues"
   },
+  "homepage": "https://github.com/telemark/micro-portalen-shortcuts",
   "now": {
     "alias": [
       "shortcuts.portalen.t-fk.win",

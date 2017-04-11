@@ -1,8 +1,9 @@
 [![Build Status](https://travis-ci.org/telemark/micro-portalen-shortcuts.svg?branch=master)](https://travis-ci.org/telemark/micro-portalen-shortcuts)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-portalen-shortcuts.svg)](https://greenkeeper.io/)
+
 # micro-portalen-shortcuts
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-portalen-shortcuts.svg)](https://greenkeeper.io/)
 Micro-version of shortcuts administration
 
 ## API
