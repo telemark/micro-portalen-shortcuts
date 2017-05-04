@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.8.0"
+    "node": ">=7.10.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -40,8 +40,7 @@
   "homepage": "https://github.com/telemark/micro-portalen-shortcuts",
   "now": {
     "alias": [
-      "shortcuts.portalen.t-fk.win",
-      "shortcuts.portalen.micro.t-fk.no"
+      "shortcuts.portalen.win"
     ],
     "env": {
       "NODE_ENV": "production"
@@ -55,7 +54,7 @@
     "nsp": "2.6.3",
     "nyc": "10.3.0",
     "standard": "10.0.2",
-    "test-listen": "1.0.1"
+    "test-listen": "1.0.2"
   },
   "dependencies": {
     "is-file": "1.0.0",
