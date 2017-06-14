@@ -9,6 +9,18 @@
     "email": "geir.gasodden@pythonia.no",
     "url": "https://github.com/zrrrzzt"
   },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    },
+    {
+      "name": "Tom Marius Lorier Holen",
+      "email": "tom.marius.lorier.holen@t-fk.no",
+      "url": "https://github.com/Tmholen"
+    }
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=8.1.1"
