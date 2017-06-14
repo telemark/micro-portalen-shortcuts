@@ -31,7 +31,7 @@
     "title": "MinElev",
     "description": "Samhandlingsside med verktøy fra Microsoft",
     "system": "MinElev",
-    "url": "https://minelev.t-fk.no",
+    "url": "https://www.minelev.no",
     "icon": "build"
   },
     {
@@ -45,7 +45,7 @@
     "title": "Elevmappa360",
     "description": "Tilgang til dine elevmapper",
     "system": "Elevmappa",
-    "url": "https://elevmappa360.t-fk.no/",
+    "url": "https://elevmappa360.t-fk.no",
     "icon": "query_builder"
   }
 ]
