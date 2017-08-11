@@ -71,7 +71,7 @@
   "dependencies": {
     "is-file": "1.0.0",
     "marked": "0.3.6",
-    "micro": "8.0.0",
+    "micro": "8.0.2",
     "tfk-unique-array": "1.0.11"
   }
 }
