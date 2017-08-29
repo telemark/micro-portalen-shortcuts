@@ -10,7 +10,7 @@
     "title": "E-post",
     "description": "Webmail for ansatte",
     "system": "OWA",
-    "url": "https://epost.vfk.no/OWA/auth/logon.aspx",
+    "url": "https://outlook.office.com",
     "icon": "email"
   },
    {
@@ -24,14 +24,14 @@
     "title": "Office365",
     "description": "Samhandlingsside med programmer fra Microsoft",
     "system": "Office365",
-    "url": "https://skoletfk.sharepoint.com/skoleportal",
+    "url": "https://portal.office.com",
     "icon": "build"
   },
      {
     "title": "MinElev",
     "description": "Samhandlingsside med verktøy fra Microsoft",
     "system": "MinElev",
-    "url": "https://minelev.t-fk.no",
+    "url": "https://www.minelev.no",
     "icon": "build"
   },
     {
@@ -45,7 +45,12 @@
     "title": "Elevmappa360",
     "description": "Tilgang til dine elevmapper",
     "system": "Elevmappa",
-    "url": "https://elevmappa360.t-fk.no/",
-    "icon": "query_builder"
+    "url": "https://elevmappa360.t-fk.no",
+    "icon": "query_builder",
+      "ips": [
+        "139.164.160.*",
+        "139.164.182.*",
+        "213.188.19.179"
+      ]
   }
 ]

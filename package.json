@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-shortcuts",
   "description": "Mapping of shortcuts for portalen",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "license": "MIT",
   "private": true,
   "author": {
@@ -9,9 +9,21 @@
     "email": "geir.gasodden@pythonia.no",
     "url": "https://github.com/zrrrzzt"
   },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    },
+    {
+      "name": "Tom Marius Lorier Holen",
+      "email": "tom.marius.lorier.holen@t-fk.no",
+      "url": "https://github.com/Tmholen"
+    }
+  ],
   "main": "index.js",
   "engines": {
-    "node": ">=7.10.0"
+    "node": ">=8.4.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -21,6 +33,7 @@
     "setup": "npm install",
     "standard-fix": "standard --fix",
     "start": "micro",
+    "dev": "micro-dev",
     "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
@@ -48,18 +61,20 @@
     "type": "npm"
   },
   "devDependencies": {
-    "ava": "0.19.1",
-    "axios": "0.16.1",
+    "ava": "0.22.0",
+    "axios": "0.16.2",
     "coveralls": "2.13.1",
-    "nsp": "2.6.3",
-    "nyc": "10.3.0",
-    "standard": "10.0.2",
+    "micro-dev": "1.2.2",
+    "nsp": "2.7.0",
+    "nyc": "11.1.0",
+    "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
   "dependencies": {
     "is-file": "1.0.0",
     "marked": "0.3.6",
-    "micro": "7.3.3",
-    "tfk-unique-array": "1.0.11"
+    "micro": "8.0.3",
+    "tfk-unique-array": "1.0.11",
+    "wildcard": "1.1.2"
   }
 }
