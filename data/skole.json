@@ -46,6 +46,11 @@
     "description": "Tilgang til dine elevmapper",
     "system": "Elevmappa",
     "url": "https://elevmappa360.t-fk.no",
-    "icon": "query_builder"
+    "icon": "query_builder",
+      "ips": [
+        "139.164.160.*",
+        "139.164.182.*",
+        "213.188.19.179"
+      ]
   }
 ]
