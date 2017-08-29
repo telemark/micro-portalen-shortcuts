@@ -32,6 +32,22 @@ To filter by roles
 }
 ```
 
+To filter by ip
+
+#### GET
+
+```bash
+?myIp=127.0.0.1
+```
+
+#### POST
+
+```JavaScript
+{
+  myIp: '127.0.0.1'
+}
+```
+
 ## /view
 
 Renders html of all shortcuts
@@ -53,6 +69,22 @@ To filter by roles
     'role2',
     'role3'
   ]
+}
+```
+
+To filter by ip
+
+#### GET
+
+```bash
+?myIp=127.0.0.1
+```
+
+#### POST
+
+```JavaScript
+{
+  myIp: '127.0.0.1'
 }
 ```
 
