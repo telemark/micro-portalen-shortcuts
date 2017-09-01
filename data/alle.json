@@ -11,12 +11,7 @@
       "description": "Sak/arkivsystemet",
       "system": "p360",
       "url": "http://public360/",
-      "icon": "account_balance",
-      "ips": [
-        "139.164.160.*",
-        "139.164.182.*",
-        "213.188.19.179"
-      ]
+      "icon": "account_balance"
   },
   {
     "title": "Kvalitets- og avvikssystem",
