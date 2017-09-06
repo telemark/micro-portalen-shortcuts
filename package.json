@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-shortcuts",
   "description": "Mapping of shortcuts for portalen",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "license": "MIT",
   "private": true,
   "author": {
@@ -65,8 +65,8 @@
     "axios": "0.16.2",
     "coveralls": "2.13.1",
     "micro-dev": "1.2.2",
-    "nsp": "2.7.0",
-    "nyc": "11.2.0",
+    "nsp": "2.8.0",
+    "nyc": "11.2.1",
     "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
