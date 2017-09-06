@@ -12,5 +12,17 @@
     "system": "CraftCMS",
     "url": "https://info.portalen.t-fk.no/artikler/2016/styringsinformasjon",
     "icon": "flag"
+  },
+  {
+    "title": "Citrix",
+    "description": "Logg inn på citrix",
+    "system": "Citrix",
+    "url": "https://login.t-fk.no",
+    "icon": "account_balance",
+    "excludeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
   }
  ]

@@ -11,6 +11,11 @@
     "description": "Sak/arkivsystemet",
     "system": "p360",
     "url": "http://public360/",
-    "icon": "account_balance"
+    "icon": "account_balance",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
     }
 ]

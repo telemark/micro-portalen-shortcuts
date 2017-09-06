@@ -29,7 +29,7 @@
   },
      {
     "title": "MinElev",
-    "description": "Samhandlingsside med verktøy fra Microsoft",
+    "description": "Varsler og elevsamtaler",
     "system": "MinElev",
     "url": "https://www.minelev.no",
     "icon": "build"
@@ -46,6 +46,11 @@
     "description": "Tilgang til dine elevmapper",
     "system": "Elevmappa",
     "url": "https://elevmappa360.t-fk.no",
-    "icon": "query_builder"
+    "icon": "query_builder",
+      "includeIps": [
+        "139.164.160.*",
+        "139.164.182.*",
+        "213.188.19.179"
+      ]
   }
 ]
