@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-shortcuts",
   "description": "Mapping of shortcuts for portalen",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "license": "MIT",
   "private": true,
   "author": {
@@ -23,7 +23,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.5.0"
+    "node": ">=8.7.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -45,7 +45,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/telemark/micro-portalen-shortcuts.git"
+    "url": "git+https://github.com/telemark/micro-portalen-shortcuts.git"
   },
   "bugs": {
     "url": "https://github.com/telemark/micro-portalen-shortcuts/issues"
@@ -72,7 +72,7 @@
   },
   "dependencies": {
     "is-file": "1.0.0",
-    "marked": "0.3.6",
+    "markdown-it": "8.4.0",
     "micro": "9.0.0",
     "tfk-unique-array": "1.0.11",
     "wildcard": "1.1.2"
