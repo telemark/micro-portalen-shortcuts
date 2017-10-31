@@ -16,7 +16,7 @@
     "description": "Sak/arkivsystemet",
     "system": "p360",
     "url": "http://public360/",
-    "icon": "account_balance",
+    "icon": "library_books",
     "includeIps": [
       "139.164.160.*",
       "139.164.182.*",
@@ -60,7 +60,7 @@
   },
   {
     "title": "Regnskap",
-    "description": "Inforamsjon om regelverk, veiledere og kurs",
+    "description": "Informasjon om regelverk, veiledere og kurs",
     "system": "Infoportalen",
     "url": "https://info.portalen.t-fk.no/artikler/2017/regnskap",
     "icon": "account_balance"
