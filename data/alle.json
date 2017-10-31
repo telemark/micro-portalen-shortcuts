@@ -57,5 +57,12 @@
     "system": "Visma commerce",
     "url": "https://info.portalen.t-fk.no/artikler/2017/innkjop-i-telemark-fylkeskommune",
     "icon": "business_center"
+  },
+  {
+    "title": "Regnskap",
+    "description": "Inforamsjon om regelverk, veiledere og kurs",
+    "system": "Infoportalen",
+    "url": "https://info.portalen.t-fk.no/artikler/2017/regnskap",
+    "icon": "account_balance"
   }
 ]

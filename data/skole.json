@@ -20,13 +20,6 @@
     "url": "https://ndla.no",
     "icon": "extension"
   },
-   {
-    "title": "Office365",
-    "description": "Samhandlingsside med programmer fra Microsoft",
-    "system": "Office365",
-    "url": "https://portal.office.com",
-    "icon": "build"
-  },
      {
     "title": "MinElev",
     "description": "Varsler og elevsamtaler",
