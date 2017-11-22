@@ -71,5 +71,12 @@
     "system": "Infoportalen",
     "url": "https://info.portalen.t-fk.no/artikler/2016/klarspr%C3%A5k",
     "icon": "language"
+  },
+  {
+    "title": "Regionreformen",
+    "description": "Her finner du informasjon og artikler om regionreformen",
+    "system": "Infoportalen",
+    "url": "https://info.portalen.t-fk.no/landing?id=regionreform",
+    "icon": "language"
   }
 ]
