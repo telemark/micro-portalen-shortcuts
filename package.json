@@ -68,7 +68,7 @@
     "micro-dev": "1.4.0",
     "nyc": "11.3.0",
     "standard": "10.0.3",
-    "test-listen": "1.0.2"
+    "test-listen": "1.1.0"
   },
   "dependencies": {
     "is-file": "1.0.0",
