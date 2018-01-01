@@ -31,11 +31,11 @@
     "icon": "build"
   },
   {
-    "title": "Kvalitets- og avvikssystem",
-    "description": "(Compilo)",
+    "title": "Kvalitets- og internkontrollsystem",
+    "description": "TQM Enterprise",
     "system": "compilo",
-    "url": "https://kvalitetslosen.t-fk.no/",
-    "icon": "timeline"
+    "url": "https://tqm11.tqmenterprise.no/tfk",
+    "icon": "control_point"
   },
   {
     "title": "Læring",
