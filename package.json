@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-shortcuts",
   "description": "Mapping of shortcuts for portalen",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "license": "MIT",
   "private": true,
   "author": {
@@ -23,7 +23,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.7.0"
+    "node": ">=8.9.1"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -58,22 +58,25 @@
     "env": {
       "NODE_ENV": "production"
     },
-    "type": "npm"
+    "type": "npm",
+    "engines": {
+      "node": "8.9.1"
+    }
   },
   "devDependencies": {
     "ava": "0.22.0",
     "axios": "0.17.1",
     "coveralls": "3.0.0",
     "nsp": "3.1.0",
-    "micro-dev": "1.4.0",
+    "micro-dev": "2.1.0",
     "nyc": "11.3.0",
     "standard": "10.0.3",
-    "test-listen": "1.0.2"
+    "test-listen": "1.1.0"
   },
   "dependencies": {
     "is-file": "1.0.0",
     "markdown-it": "8.4.0",
-    "micro": "9.0.1",
+    "micro": "9.0.2",
     "tfk-unique-array": "1.0.11",
     "wildcard": "1.1.2"
   }
