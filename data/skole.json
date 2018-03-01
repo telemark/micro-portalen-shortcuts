@@ -31,7 +31,7 @@
     "title": "Min tid",
     "description": "Tidsregistrering for ansatte",
     "system": "Min tid",
-    "url": "http://tfk-fh-stempling01/MinTid/Login.aspx?ReturnUrl=%2fmintid%2fstart.aspx",
+    "url": "http://tfk-fh-stempling01/MinWintid/",
     "icon": "query_builder"
   },
     {
