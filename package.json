@@ -76,7 +76,7 @@
   "dependencies": {
     "is-file": "1.0.0",
     "markdown-it": "8.4.1",
-    "micro": "9.1.4",
+    "micro": "9.2.0",
     "tfk-unique-array": "1.0.11",
     "wildcard": "1.1.2"
   }
