@@ -23,7 +23,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.9.4"
+    "node": ">=10.1.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -34,7 +34,8 @@
     "standard-fix": "standard --fix",
     "start": "micro",
     "dev": "micro-dev",
-    "now-deploy": "npm test && now --npm && now alias"
+    "now-deploy": "npm test && now --npm && now alias",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
     "microservice",
@@ -50,7 +51,7 @@
   "bugs": {
     "url": "https://github.com/telemark/micro-portalen-shortcuts/issues"
   },
-  "homepage": "https://github.com/telemark/micro-portalen-shortcuts",
+  "homepage": "https://github.com/telemark/micro-portalen-shortcuts#readme",
   "now": {
     "alias": [
       "shortcuts.portalen.win"
@@ -60,7 +61,7 @@
     },
     "type": "npm",
     "engines": {
-      "node": "8.9.4"
+      "node": "10.1.0"
     }
   },
   "devDependencies": {
