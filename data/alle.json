@@ -38,6 +38,20 @@
     "icon": "control_point"
   },
   {
+    "title": "Framsikt",
+    "description": "Verktøy for analyse, budsjettering og økonomiplanlegging",
+    "system": "Framsikt",
+    "url": "https://pilot.framsikt.net",
+    "icon": "note"
+  },
+  {
+    "title": "Regionreformen",
+    "description": "Her finner du informasjon og artikler om regionreformen",
+    "system": "Infoportalen",
+    "url": "https://info.portalen.t-fk.no/landing?id=regionreform",
+    "icon": "satellite"
+  },
+  {
     "title": "Læring",
     "description": "Oversikt over interne kurs og elektronisk opplæringsmateriell",
     "system": "Sharepoint",
@@ -78,5 +92,5 @@
     "system": "Infoportalen",
     "url": "https://info.portalen.t-fk.no/landing?id=regionreform",
     "icon": "satellite"
-  }
+  }  
 ]
