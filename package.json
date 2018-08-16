@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-shortcuts",
   "description": "Mapping of shortcuts for portalen",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "license": "MIT",
   "private": true,
   "author": {
