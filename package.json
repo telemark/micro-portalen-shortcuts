@@ -23,14 +23,13 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=10.5.0"
+    "node": ">=10.7.0"
   },
   "scripts": {
     "test": "standard && npm audit && ava",
     "test-offline": "standard && ava",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
-    "setup": "npm install",
     "standard-fix": "standard --fix",
     "start": "micro",
     "dev": "micro-dev",
@@ -61,7 +60,7 @@
     },
     "type": "npm",
     "engines": {
-      "node": ">=10.0.0"
+      "node": ">=10.7.0"
     }
   },
   "devDependencies": {
