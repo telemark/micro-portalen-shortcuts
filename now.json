@@ -9,5 +9,11 @@
   "type": "npm",
   "engines": {
     "node": ">=10.7.0"
+  },
+  "scale": {
+    "bru1": {
+      "min": 1,
+      "max": 1
+    }
   }
 }
