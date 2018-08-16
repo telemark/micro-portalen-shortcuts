@@ -1,0 +1,13 @@
+{
+  "name": "micro-portalen-shortcuts",
+  "alias": [
+    "shortcuts.portalen.win"
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "type": "npm",
+  "engines": {
+    "node": ">=10.7.0"
+  }
+}

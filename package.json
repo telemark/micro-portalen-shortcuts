@@ -33,7 +33,7 @@
     "standard-fix": "standard --fix",
     "start": "micro",
     "dev": "micro-dev",
-    "now-deploy": "npm test && now --npm && now alias",
+    "deploy": "npm test && now && now alias",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
@@ -51,18 +51,6 @@
     "url": "https://github.com/telemark/micro-portalen-shortcuts/issues"
   },
   "homepage": "https://github.com/telemark/micro-portalen-shortcuts#readme",
-  "now": {
-    "alias": [
-      "shortcuts.portalen.win"
-    ],
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "type": "npm",
-    "engines": {
-      "node": ">=10.7.0"
-    }
-  },
   "devDependencies": {
     "ava": "0.25.0",
     "axios": "0.18.0",
