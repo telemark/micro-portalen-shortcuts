@@ -20,19 +20,12 @@
     "url": "https://ndla.no",
     "icon": "extension"
   },
-     {
+  {
     "title": "MinElev",
     "description": "Varsler og elevsamtaler",
     "system": "MinElev",
     "url": "https://www.minelev.no",
     "icon": "build"
-  },
-    {
-    "title": "Min tid",
-    "description": "Tidsregistrering for ansatte",
-    "system": "Min tid",
-    "url": "http://tfk-fh-stempling01/MinWintid/",
-    "icon": "query_builder"
   },
     {
     "title": "Elevmappa360",

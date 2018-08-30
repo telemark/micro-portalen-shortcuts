@@ -1,12 +1,5 @@
 [
   {
-    "title": "Min tid",
-    "description": "Tidsregistrering for ansatte",
-    "system": "Min tid",
-    "url": "http://tfk-fh-stempling01/MinWintid/",
-    "icon": "query_builder"
-  },
-    {
     "title": "Styringsinformasjon",
     "description": "De mest sentrale dokumentene i Telemark fylkeskommune",
     "system": "CraftCMS",
@@ -25,4 +18,4 @@
       "213.188.19.179"
     ]
   }
- ]
+]

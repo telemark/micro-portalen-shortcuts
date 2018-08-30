@@ -24,6 +24,18 @@
     ]
   },
   {
+    "title": "Min tid",
+    "description": "Tidsregistrering for ansatte",
+    "system": "Min tid",
+    "url": "http://tfk-fh-stempling01/MinWintid/",
+    "icon": "query_builder",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
+  },
+  {
     "title": "Office365",
     "description": "Samhandlingsside med programmer fra Microsoft",
     "system": "Office365",
