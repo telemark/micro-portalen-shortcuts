@@ -3,7 +3,7 @@
     "title": "E-post",
     "description": "Webmail for ansatte",
     "system": "OWA",
-    "url": "https://epost.vfk.no/OWA/auth/logon.aspx",
+    "url": "https://outlook.office.com",
     "icon": "email"
   }
 ]

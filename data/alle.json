@@ -75,28 +75,48 @@
     "description": "Informasjon om regelverk og terskelverdier",
     "system": "Visma commerce",
     "url": "https://portaleninfo.com/innkjop/",
-    "icon": "business_center"
+    "icon": "business_center",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
   },
   {
     "title": "Regnskap",
     "description": "Informasjon om regelverk, veiledere og kurs",
     "system": "Infoportalen",
     "url": "http://portaleninfo.com/regnskap/",
-    "icon": "account_balance"
+    "icon": "account_balance",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
   },
   {
     "title": "Klarspråk",
     "description": "Vi velger klart språk",
     "system": "Infoportalen",
     "url": "https://portaleninfo.com/vi-velger-klart-sprak/",
-    "icon": "language"
+    "icon": "language",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
   },
   {
     "title": "Regionreformen",
     "description": "Her finner du informasjon og artikler om regionreformen",
     "system": "Infoportalen",
     "url": "https://portaleninfo.com/regionreform-2/",
-    "icon": "satellite"
+    "icon": "satellite",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
   },
   {
     "title": "Meld hendelse",

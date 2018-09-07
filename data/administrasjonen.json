@@ -4,7 +4,12 @@
     "description": "De mest sentrale dokumentene i Telemark fylkeskommune",
     "system": "CraftCMS",
     "url": "https://portaleninfo.com/styringsinformasjon/",
-    "icon": "flag"
+    "icon": "flag",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
   },
   {
     "title": "Citrix",
