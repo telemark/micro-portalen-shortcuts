@@ -89,5 +89,3 @@ To filter by ip
 
 ## License
 [MIT](LICENSE)
-
-![alt text](https://robots.kebabstudios.party/micro-portalen-shortcuts.png "Robohash image of micro-portalen-shortcuts")
