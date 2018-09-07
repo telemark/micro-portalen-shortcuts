@@ -103,7 +103,7 @@
     "description": "Her kan du melde avvik og uønskede hendelser i TQM",
     "system": "compilo",
     "url": "https://tqm11.tqmenterprise.no/tfk",
-    "icon": "inbox",
+    "icon": "how_to_vote",
     "includeIps": [
       "139.164.160.*",
       "139.164.182.*",
