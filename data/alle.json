@@ -97,5 +97,17 @@
     "system": "Infoportalen",
     "url": "https://portaleninfo.com/regionreform-2/",
     "icon": "satellite"
-  }  
+  },
+  {
+    "title": "Meld hendelse",
+    "description": "Her kan du melde avvik og uønskede hendelser i TQM",
+    "system": "compilo",
+    "url": "https://tqm11.tqmenterprise.no/tfk",
+    "icon": "inbox",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
+  }
 ]
