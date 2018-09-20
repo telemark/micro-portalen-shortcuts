@@ -1,4 +1,4 @@
-const readFileSync = require('fs').readFileSync
+const { readFile } = require('fs').promises
 const md = require('markdown-it')()
 const { parse } = require('url')
 const { json, send } = require('micro')
@@ -23,7 +23,7 @@ module.exports = async (request, response) => {
   } else if (pathname === '/view') {
     send(response, 200, renderPage(results))
   } else {
-    const readme = readFileSync('./README.md', 'utf-8')
+    const readme = await readFile('README.md', 'utf-8')
     send(response, 200, md.render(readme))
   }
 }
