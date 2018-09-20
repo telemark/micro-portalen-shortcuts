@@ -1,11 +1,10 @@
-'use strict'
-
 const test = require('ava')
 const buildMyShortcuts = require('../../lib/filter-shortcuts')
-const alle = require('../../data/alle.json')
-const administrasjonen = require('../../data/administrasjonen.json')
-const skole = require('../../data/skole.json')
-const tannhelse = require('../../data/tannhelse.json')
+const shortcuts = require('../../data/shortcuts.json')
+const alle = shortcuts.alle
+const administrasjonen = shortcuts.administrasjonen
+const skole = shortcuts.skole
+const tannhelse = shortcuts.tannhelse
 const tullefant = []
 
 test('It generates expected shortcuts', t => {
