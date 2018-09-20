@@ -117,5 +117,17 @@
       "139.164.182.*",
       "213.188.19.179"
     ]
+  },
+  {
+    "title": "Meld hendelse",
+    "description": "Her kan du melde avvik og uønskede hendelser i TQM",
+    "system": "compilo",
+    "url": "https://tqm11.tqmenterprise.no/tfk/CaseHandling/Case/GeneralInfo?forOL1=tfk",
+    "icon": "how_to_vote",
+    "includeIps": [
+      "139.164.160.*",
+      "139.164.182.*",
+      "213.188.19.179"
+    ]
   }
 ]

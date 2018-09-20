@@ -1,4 +1,30 @@
 {
+  "administrasjonen": [
+    {
+      "title": "Styringsinformasjon",
+      "description": "De mest sentrale dokumentene i Telemark fylkeskommune",
+      "system": "CraftCMS",
+      "url": "https://portaleninfo.com/styringsinformasjon/",
+      "icon": "flag",
+      "includeIps": [
+        "139.164.160.*",
+        "139.164.182.*",
+        "213.188.19.179"
+      ]
+    },
+    {
+      "title": "Citrix",
+      "description": "Logg inn på citrix",
+      "system": "Citrix",
+      "url": "https://login.t-fk.no",
+      "icon": "account_balance",
+      "excludeIps": [
+        "139.164.160.*",
+        "139.164.182.*",
+        "213.188.19.179"
+      ]
+    }
+  ],
   "alle": [
     {
       "title": "Min side (Visma)",
@@ -123,13 +149,64 @@
       "title": "Meld hendelse",
       "description": "Her kan du melde avvik og uønskede hendelser i TQM",
       "system": "compilo",
-      "url": "https://tqm11.tqmenterprise.no/tfk",
+      "url": "https://tqm11.tqmenterprise.no/tfk/CaseHandling/Case/GeneralInfo?forOL1=tfk",
       "icon": "how_to_vote",
       "includeIps": [
         "139.164.160.*",
         "139.164.182.*",
         "213.188.19.179"
       ]
+    }
+  ],
+  "skole": [
+    {
+      "title": "Fronter",
+      "description": "Læringsplattform",
+      "system": "Fronter",
+      "url": "https://fronter.com/telemarkvgs/login/feide",
+      "icon": "note"
+    },
+    {
+      "title": "E-post",
+      "description": "Webmail for ansatte",
+      "system": "OWA",
+      "url": "https://outlook.office.com",
+      "icon": "email"
+    },
+     {
+      "title": "NDLA",
+      "description": "Nasjonal digital læringsarena",
+      "system": "NDLA",
+      "url": "https://ndla.no",
+      "icon": "extension"
+    },
+    {
+      "title": "MinElev",
+      "description": "Varsler og elevsamtaler",
+      "system": "MinElev",
+      "url": "https://www.minelev.no",
+      "icon": "build"
+    },
+      {
+      "title": "Elevmappa360",
+      "description": "Tilgang til dine elevmapper",
+      "system": "Elevmappa",
+      "url": "https://elevmappa360.t-fk.no",
+      "icon": "query_builder",
+        "includeIps": [
+          "139.164.160.*",
+          "139.164.182.*",
+          "213.188.19.179"
+        ]
+    }
+  ],
+  "tannhelse": [
+    {
+      "title": "E-post",
+      "description": "Webmail for ansatte",
+      "system": "OWA",
+      "url": "https://outlook.office.com",
+      "icon": "email"
     }
   ]  
 }
