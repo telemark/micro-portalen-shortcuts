@@ -1,18 +1,6 @@
 {
   "administrasjonen": [
     {
-      "title": "Styringsinformasjon",
-      "description": "De mest sentrale dokumentene i Telemark fylkeskommune",
-      "system": "CraftCMS",
-      "url": "https://portaleninfo.com/styringsinformasjon/",
-      "icon": "flag",
-      "includeIps": [
-        "139.164.160.*",
-        "139.164.182.*",
-        "213.188.19.179"
-      ]
-    },
-    {
       "title": "Citrix",
       "description": "Logg inn på citrix",
       "system": "Citrix",
@@ -133,6 +121,31 @@
         "213.188.19.179"
       ]
     },
+
+    {
+      "title": "Meld hendelse",
+      "description": "Her kan du melde avvik og uønskede hendelser i TQM",
+      "system": "compilo",
+      "url": "https://tqm11.tqmenterprise.no/tfk/CaseHandling/Cases/Overview?menu=SimpleRegistration",
+      "icon": "how_to_vote",
+      "includeIps": [
+        "139.164.160.*",
+        "139.164.182.*",
+        "213.188.19.179"
+      ]
+    },
+    {
+      "title": "Styringsinformasjon",
+      "description": "De mest sentrale dokumentene i Telemark fylkeskommune",
+      "system": "CraftCMS",
+      "url": "https://portaleninfo.com/styringsinformasjon/",
+      "icon": "flag",
+      "includeIps": [
+        "139.164.160.*",
+        "139.164.182.*",
+        "213.188.19.179"
+      ]
+    },
     {
       "title": "Regionreformen",
       "description": "Her finner du informasjon og artikler om regionreformen",
@@ -146,11 +159,11 @@
       ]
     },
     {
-      "title": "Meld hendelse",
-      "description": "Her kan du melde avvik og uønskede hendelser i TQM",
-      "system": "compilo",
-      "url": "https://tqm11.tqmenterprise.no/tfk/CaseHandling/Cases/Overview?menu=SimpleRegistration",
-      "icon": "how_to_vote",
+      "title": "Felles ansattportal",
+      "description": "Felles portal for ansatte i Vestfold og Telemark fylkeskommune",
+      "system": "Sharepoint",
+      "url": "https://portalen.vfk.no/sites/nyttfylke/Sider/Hjem.aspx",
+      "icon": "group",
       "includeIps": [
         "139.164.160.*",
         "139.164.182.*",
