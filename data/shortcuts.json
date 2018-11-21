@@ -147,18 +147,6 @@
       ]
     },
     {
-      "title": "Regionreformen",
-      "description": "Her finner du informasjon og artikler om regionreformen",
-      "system": "Infoportalen",
-      "url": "https://portaleninfo.com/regionreform-2/",
-      "icon": "satellite",
-      "includeIps": [
-        "139.164.160.*",
-        "139.164.182.*",
-        "213.188.19.179"
-      ]
-    },
-    {
       "title": "Felles ansattportal",
       "description": "Felles portal for ansatte i Vestfold og Telemark fylkeskommune",
       "system": "Sharepoint",
