@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "name": "micro-portalen-shortcuts",
   "alias": [
     "shortcuts.portalen.win"
@@ -6,8 +7,10 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "type": "docker",
-  "features": {
-    "cloud": "v2"
-  }
+  "builds": [
+    { "src": "/index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "use": "/index.js" }
+  ]
 }

@@ -1,6 +1,6 @@
 const test = require('ava')
 const buildMyShortcuts = require('../../lib/filter-shortcuts')
-const shortcuts = require('../../data/shortcuts.json')
+const shortcuts = require('../../lib/data/shortcuts.json')
 const alle = shortcuts.alle
 const administrasjonen = shortcuts.administrasjonen
 const skole = shortcuts.skole
