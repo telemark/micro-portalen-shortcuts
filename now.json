@@ -11,6 +11,6 @@
     { "src": "/index.js", "use": "@now/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "use": "/index.js" }
+    { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
