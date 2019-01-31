@@ -63,7 +63,7 @@
   "dependencies": {
     "markdown-it": "8.4.2",
     "micro": "9.3.3",
-    "tfk-unique-array": "1.0.11",
+    "tfk-unique-array": "2.0.0",
     "wildcard": "1.1.2"
   }
 }
