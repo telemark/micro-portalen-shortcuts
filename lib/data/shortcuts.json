@@ -18,7 +18,7 @@
       "title": "Min side (Visma)",
       "description": "Ferier, fravær, reiseregninger, fakturaer og økonomirapportering",
       "system": "visma",
-      "url": "http://tfk-fh-visma01:8200/enterprise",
+      "url": "http://tfk-fh-visma01:8200/hrm/ansatt?0",
       "icon": "assessment",
       "includeIps": [
         "139.164.160.*",
