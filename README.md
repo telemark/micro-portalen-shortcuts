@@ -87,5 +87,21 @@ To filter by ip
 }
 ```
 
+## Development
+
+You'll need the [now-cli](https://zeit.co/now) installed to do local development.
+
+- Clone the repo
+- Install the dependencies ```$ npm i```
+- Start the development server ```$ npm run dev```
+
+## Deploy
+
+Make sure the [now.json](now.json) matches your environment.
+
+Run the deploy script.
+
+```$ npm run deploy```
+
 ## License
 [MIT](LICENSE)
