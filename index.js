@@ -1,12 +1,10 @@
-const { parse } = require('url')
-const { json, send } = require('micro')
 const listAllShortcuts = require('./lib/list-all-shortcuts')
 const filterShortcuts = require('./lib/filter-shortcuts')
 const renderPage = require('./lib/render-page')
 
 module.exports = async (request, response) => {
-  const { pathname, query } = await parse(request.url, true)
-  const data = request.method === 'POST' ? await json(request) : query
+  const pathname = request.url
+  const data = await request.body
   let results = []
   if (Object.values(data).length > 0) {
     results = filterShortcuts(data)
@@ -21,9 +19,9 @@ module.exports = async (request, response) => {
     response.setHeader('Access-Control-Allow-Headers', 'Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Access-Control-Request-Method, Access-Control-Request-Headers')
     response.end()
   } else if (pathname === '/shortcuts') {
-    send(response, 200, results)
+    response.json(results)
   } else if (pathname === '/view') {
     response.setHeader('Content-Type', 'text/html; charset=utf-8')
-    send(response, 200, renderPage(results))
+    response.send(renderPage(results))
   }
 }
