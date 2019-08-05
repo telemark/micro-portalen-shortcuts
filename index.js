@@ -4,9 +4,9 @@ const renderPage = require('./lib/render-page')
 
 module.exports = async (request, response) => {
   const pathname = request.url
-  const data = await request.body
+  const data = request.method === 'POST' ? await request.body : await request.query
   let results = []
-  if (Object.values(data).length > 0) {
+  if (data && Object.values(data).length > 0) {
     results = filterShortcuts(data)
   } else {
     results = listAllShortcuts()
@@ -18,9 +18,10 @@ module.exports = async (request, response) => {
   if (request.method === 'OPTIONS') {
     response.setHeader('Access-Control-Allow-Headers', 'Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Access-Control-Request-Method, Access-Control-Request-Headers')
     response.end()
-  } else if (pathname === '/shortcuts') {
+  } else if (pathname.includes('/shortcuts')) {
+    console.log('returnerer snarveger')
     response.json(results)
-  } else if (pathname === '/view') {
+  } else if (pathname.includes('/view')) {
     response.setHeader('Content-Type', 'text/html; charset=utf-8')
     response.send(renderPage(results))
   }

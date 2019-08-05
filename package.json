@@ -38,7 +38,6 @@
   },
   "keywords": [
     "microservice",
-    "micro",
     "shortcuts",
     "portalen",
     "Telemark fylkeskommune"
@@ -58,7 +57,6 @@
     "standard": "13.1.0"
   },
   "dependencies": {
-    "micro": "9.3.4",
     "tfk-unique-array": "2.0.0",
     "wildcard": "2.0.0"
   }
