@@ -31,6 +31,10 @@ To filter by roles
 }
 ```
 
+```
+$ curl http://localhost:3000/shortcuts -d '{"roles": ["skole"]}' --header "Content-Type: application/json"
+```
+
 To filter by ip
 
 #### GET
@@ -104,4 +108,5 @@ Run the deploy script.
 ```$ npm run deploy```
 
 ## License
+
 [MIT](LICENSE)
