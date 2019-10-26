@@ -51,7 +51,7 @@
   },
   "homepage": "https://github.com/telemark/micro-portalen-shortcuts#readme",
   "devDependencies": {
-    "ava": "2.2.0",
+    "ava": "2.4.0",
     "coveralls": "3.0.6",
     "nyc": "14.1.1",
     "standard": "13.1.0"
