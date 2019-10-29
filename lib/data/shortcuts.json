@@ -179,10 +179,10 @@
       "icon": "build"
     },
       {
-      "title": "Elevmappa360",
+      "title": "Elevmappa",
       "description": "Tilgang til dine elevmapper",
       "system": "Elevmappa",
-      "url": "https://elevmappa360.t-fk.no",
+      "url": "https://elevmappa.t-fk.no",
       "icon": "query_builder",
         "includeIps": [
           "139.164.*.*",
