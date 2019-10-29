@@ -182,7 +182,7 @@
       "title": "Elevmappa",
       "description": "Tilgang til dine elevmapper",
       "system": "Elevmappa",
-      "url": "https://elevmappa.t-fk.no",
+      "url": "https://elevmappa.vtfk.no",
       "icon": "query_builder",
         "includeIps": [
           "139.164.*.*",
@@ -198,5 +198,5 @@
       "url": "https://outlook.office.com",
       "icon": "email"
     }
-  ]  
+  ]
 }
