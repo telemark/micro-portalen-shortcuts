@@ -111,9 +111,9 @@ You'll need the [now-cli](https://zeit.co/now) installed to do local development
   {
       "title": "The shortcuts title",
       "description": "Shortcuts description (keep it short)",
-      "system": "What system is the short leading to",
+      "system": "What system is the shortcut leading to",
       "url": "Url for the shortcut",
-      "icon": "Name for the shortcut icon",
+      "icon": "Name for the shortcut icon", // From https://material.io/resources/icons/?style=baseline
       "includeIps": [
         "10.0.*.*", // Support wildcards for range
         "172.16.0.0" // Supports full address
