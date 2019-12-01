@@ -3,7 +3,9 @@
 
 # micro-portalen-shortcuts
 
-Micro-version of shortcuts administration
+Micro-version of shortcuts administration.
+
+Returns an array of shortcut objects dependening on your roles and ip.
 
 ## API
 
@@ -98,6 +100,33 @@ You'll need the [now-cli](https://zeit.co/now) installed to do local development
 - Clone the repo
 - Install the dependencies ```$ npm i```
 - Start the development server ```$ npm run dev```
+
+### Add a new shortcut
+
+- Open [lib/data/shortcuts.json](lib/data/shortcuts.json)
+- Find the role the shortcut is connected to
+- Add the shortcut
+
+```JavaScript
+  {
+      "title": "The shortcuts title",
+      "description": "Shortcuts description (keep it short)",
+      "system": "What system is the short leading to",
+      "url": "Url for the shortcut",
+      "icon": "Name for the shortcut icon",
+      "includeIps": [
+        "10.0.*.*", // Support wildcards for range
+        "172.16.0.0" // Supports full address
+      ] //This optional. Must be an array. If the shortcut is available for all IPs remove the property
+    }
+```
+
+- Redeploy
+
+### Remove a shortcut
+
+- Remove the shortcut from [lib/data/shortcuts.json](lib/data/shortcuts.json)
+- Redeploy
 
 ## Deploy
 
